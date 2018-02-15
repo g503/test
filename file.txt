@@ -2,4 +2,6 @@
  "${SYSROOT_BASE}/usr/include"
  "${SYSROOT_BASE}/usr/include/dlt"
  "${SYSROOT_BASE}/usr/include/c++/5.2.1"
+ "${SYSROOT_BASE}/usr/include/c--/3.1.0"
  "${SYSROOT_BASE}/usr/include/c++/5.5.5"
+
