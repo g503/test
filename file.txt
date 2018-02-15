@@ -5,3 +5,4 @@
  "${SYSROOT_BASE}/usr/include/c--/3.1.0"
  "${SYSROOT_BASE}/usr/include/c++/5.5.5"
 
+ "${SYSROOT_BASE}/usr/include/boost22"
