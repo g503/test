@@ -1,14 +1,14 @@
-#include <stdio.h>
-#include "../swap/swap.h"
+#include <show.h>
+#include <swap.h>
 
 int main()
 {
-	int a = 10;
-	int b = 20;
+int a = 10;
+int b = 20;
 
-	printf("Stare wartosci: a = %d; b = %d.\n", a, b);
-	swap(&a, &b);
-	printf("Nowe wartosci: a = %d; b = %d.\n", a, b);
+    show(a, b);
+    swap(&a, &b);
+    show(a, b);
 
-	return 0;
+    return 0;
 }
