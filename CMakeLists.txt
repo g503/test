@@ -3,7 +3,7 @@ cmake_minimum_required (VERSION 3.5.1)
 set(PROJECT_NAME  Project_libs)
 project (${PROJECT_NAME})
 
-# Put here comilated libraries
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/bin)
 set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/lib)
 
 set(LIBRARY_DIR ${CMAKE_CURRENT_SOURCE_DIR}/lib)
@@ -41,7 +41,6 @@ set(SOURCE_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/src/main.c
     )
 
-set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/bin)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src
                     ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
