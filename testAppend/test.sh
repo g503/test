@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Display on a Linux server|local.
+# Display on a Linux server|local|remote.
 
-# poprawka 7
+# poprawka 8
 # inny tekst
 [ -d "/sys/class/net" ] |& cat /sys/
 i tu cos takiego
