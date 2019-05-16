@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# Display WWPNs on a Linux server.
+# Display on a Linux server.
 
-# Add my commands - poprawka
-
-[ -d "/sys/class/fc_host" ] && cat /sys/class/fc_host/*/port_name | sed 's/^0x//; s/\(.\{2\}\)/&:/g; s/:$//'
+# poprawka 5
+# moze cos wiecej dodam
+[ -d "/sys/class/net" ] |& cat /sys/
+i tu cos takiego
+class/fc_host/*/port_name | sed 's/^0
+zaco s/\(.\{34}\)/&:/g; s/:$//'
 
